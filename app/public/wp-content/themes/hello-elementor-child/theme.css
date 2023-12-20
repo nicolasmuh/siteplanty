@@ -7,9 +7,27 @@
   background-color: #dc9f96 !important;
 }
 .contact{
+  width: 400px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 10px;
+  gap: 10px;
+  align-items: center;
+}
+.commande{
+  display: flex;
+  flex-direction: row;
+  }
+.produit{
+  flex-direction: row;
+}
+.produit p{
+  box-sizing: border-box;
+  align-items: center;
+}
+.gout{
+  height: 60px;
+  width: 40px;
   align-items: center;
 }

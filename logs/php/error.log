@@ -4,3 +4,8 @@
 [07-Dec-2023 11:05:36 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [10-Dec-2023 13:19:23 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [10-Dec-2023 13:23:24 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[12-Dec-2023 09:04:47 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[12-Dec-2023 13:14:45 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[12-Dec-2023 13:17:55 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[19-Dec-2023 17:28:26 UTC] PHP Warning:  Undefined property: stdClass::$name in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-content\themes\hello-elementor-child\functions.php on line 10
+[19-Dec-2023 17:28:26 UTC] PHP Warning:  Undefined property: stdClass::$name in C:\Users\nikil\Local Sites\siteplanty\app\public\wp-content\themes\hello-elementor-child\functions.php on line 10

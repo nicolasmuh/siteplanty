@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/**
+ personalition theme chld-planty **/
+ .elementor-kit-5 menu-item-83{
+
+  color: #ffffff !important;
+  background-color: #dc9f96 !important;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}

@@ -6,28 +6,40 @@
   color: #ffffff !important;
   background-color: #dc9f96 !important;
 }
-.contact{
+.contactid, .contactliv{
   width: 400px;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  gap: 10px;
   align-items: center;
+}
+.contact label{
+  line-height: 2;
 }
 .commande{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   }
+.presentation{
+  flex-direction: column;
+  justify-content: center;
+}
 .produit{
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+
 }
 .produit p{
+  display: flex;
   box-sizing: border-box;
   align-items: center;
 }
 .gout{
   height: 60px;
-  width: 40px;
+  max-width: 40px;
+}
+.bouton{
+  display: flex;
   align-items: center;
 }

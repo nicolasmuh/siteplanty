@@ -1,45 +1,93 @@
 @charset "UTF-8";
 /**
  personalition theme chld-planty **/
- .elementor-kit-5 menu-item-83{
-
-  color: #ffffff !important;
-  background-color: #dc9f96 !important;
+ /** .site-header .site-navigation .menu li menu-item-83{
+  .elementor-kit-5
+  color: #ffffff ;
+  background-color: #dc9f96;
+} **/
+/** menu avec commander en rouge **/
+.site-navigation ul.menu{
+  display: flex;
+  align-items: center;
+  min-width: 240px;
+  min-height: 80px;
+  padding: 0px;
 }
+.site-header{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.site-header .site-navigation ul.menu li a[href*="commander"] {
+ color:var( --e-global-color-textblan ), 1;
+ background-color: #dc9f96;
+}
+/**
+a[href*="commander"] {
+  color: #ffffff ;
+  background-color: #dc9f96;
+}**/
 .contactid, .contactliv{
-  width: 400px;
+  width: 450px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.contact label{
+.titread{
+  font-size: 30px;
+}
+.contactid{
+  border-right: solid 2px white;
+}
+.contact label, .contactid label, .contactliv label, .produit label{
   line-height: 2;
 }
 .commande{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: #ffffff;
+  margin-bottom: 30px;
   }
 .presentation{
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .produit{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  border-bottom: solid 2px white;
+  margin-bottom: 50px;
 
 }
 .produit p{
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   align-items: center;
 }
 .gout{
+  
   height: 60px;
   max-width: 40px;
+  
 }
-.bouton{
+.bouton{  
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.bouton p{
+  display: flex;
+  flex-direction: column;
+}
+.boutonenvoi{
+  min-width: 200px;
+  height: 55px;
 }

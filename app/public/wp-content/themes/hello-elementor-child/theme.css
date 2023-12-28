@@ -14,13 +14,18 @@
   min-height: 80px;
   padding: 0px;
 }
-.site-header{
-margin-top: 0px;
-margin-bottom: 0px;
+.site-header, .dynamic-header {
+padding-bottom: 0px !important;
+padding-top: 0px !important;
 }
 .site-header .site-navigation ul.menu li a[href*="commander"] {
- color:var( --e-global-color-textblan ), 1;
+  display: flex;
+ color: white !important;
  background-color: #dc9f96;
+ min-width: 240px;
+ min-height: 80px;
+ justify-content: center;
+ align-items: center;
 }
 /**
 a[href*="commander"] {
@@ -73,7 +78,7 @@ a[href*="commander"] {
 .gout{
   
   height: 60px;
-  max-width: 40px;
+  max-width: 60px;
   
 }
 .bouton{  
@@ -90,4 +95,11 @@ a[href*="commander"] {
 .boutonenvoi{
   min-width: 200px;
   height: 55px;
+}
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (max-width: 500px){
+  .commande{
+      flex-direction: column;
+  }
+  
 }

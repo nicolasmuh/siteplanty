@@ -101,5 +101,11 @@ a[href*="commander"] {
   .commande{
       flex-direction: column;
   }
+  .commande label{
+    max-width: 200px;
+  }
+  .commande imput{
+    max-width: 200px;
+  }
   
 }

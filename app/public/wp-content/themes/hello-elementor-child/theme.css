@@ -3,7 +3,8 @@
  personalition theme chld-planty **/
  
 
-/** menu avec commander en rouge **/
+/** menu avec commander en rouge  et background: #C02E44;
+**/
 .site-navigation ul.menu{
   display: flex;
   align-items: center;
@@ -24,6 +25,10 @@ padding-top: 0px !important;
  justify-content: center;
  align-items: center;
 }
+.site-header .site-navigation ul.menu li a[href*="commander"]:hover{
+  background-color: #c02e44;
+}
+/** contact**/
 .contactid, .contactliv{
   width: 450px;
   display: flex;
@@ -41,6 +46,7 @@ padding-top: 0px !important;
 .contact label, .contactid label, .contactliv label, .produit label{
   line-height: 2;
 }
+/** commande **/
 .commande{
   display: flex;
   flex-direction: row;
@@ -102,5 +108,4 @@ padding-top: 0px !important;
   .presentation img{
     padding: 5px ;
   }
-  
-
+}

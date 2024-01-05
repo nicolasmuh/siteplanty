@@ -33,9 +33,15 @@ padding-top: 0px !important;
   width: 450px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding-left: 50px;
   padding-right: 50px;
+}
+/** correction pour formulaire invalid **/
+.wpcf7-form.invalid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .titread{
   font-size: 30px;
@@ -96,8 +102,16 @@ padding-top: 0px !important;
 }
 /*Styles spécifiques pour les écrans de taille moyenne type tablette*/
 @media screen and (max-width: 500px){
+  .site-navigation-toggle-holder .site-navigation-toggle{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: #dc9f96 !important;
+    color: black !important;
+  }
   .commande{
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
   }
  .commande label{
     max-width: 200px;
@@ -108,4 +122,12 @@ padding-top: 0px !important;
   .presentation img{
     padding: 5px ;
   }
+  .contactid, .contactliv{
+    padding-left: 0px;
+  }
+  .wpcf7-form.invalid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 }
